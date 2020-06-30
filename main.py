@@ -13,5 +13,5 @@ def get_image(username):
 	buff.seek(0)
 	return send_file(buff, mimetype="image/jpeg")
 
-if __name__ == '__main__':
-	app.run()
+if __name__ == "__main__":
+	app.run(host="0.0.0.0", port=8083, debug=True, threaded=True)
