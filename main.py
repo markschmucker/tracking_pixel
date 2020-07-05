@@ -1,5 +1,3 @@
-buntu@ip-172-26-6-96:~/tracking_pixel$ 
-ubuntu@ip-172-26-6-96:~/tracking_pixel$ cat main.py 
 from StringIO import StringIO
 from flask import Flask, request, send_file, redirect, render_template
 import base64
